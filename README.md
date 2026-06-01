@@ -17,8 +17,6 @@ Issabel5 Free Call Monitoring Panel
 - اسکریپت نصب هوشمند دارد که در ابتدای نصب از شما می‌پرسد:  
   **«نسخه فارسی می‌خواهید یا انگلیسی؟»** و به‌صورت خودکار نسخه مناسب را نصب می‌کند
 
-این پروژه توسط **حامد کوه‌فلاح** — مدرس و توسعه‌دهنده تخصصی Asterisk و Issabel — طراحی و توسعه داده شده و به‌صورت **کاملاً رایگان** در اختیار تمام مدیران شبکه و سیستم‌های تلفنی و علاقه‌مندان قرار گرفته است.
-
 ---
 ## Issabel Call Monitoring
 Free, open-source replacement for the removed Operator Panel in Issabel 5.
@@ -27,20 +25,15 @@ Fully recreates classic features
 100% compatible with Issabel 5
 Modern card-based UI (full Persian RTL + full English LTR)
 Smart installer asks: “Persian or English?” and auto-installs
-Developed by Hamed Koohfallah (VOIPIRAN) – completely free for everyone.
 
 
-> با ❤️ توسعه‌یافته توسط [VoipIran.io](https://voipiran.io)
----
+> ---
 ## Installation
 Just Copy and Paste on your Linux CLI:
 ```
-curl -L -o callmonitoring.zip https://github.com/voipiran/IssabelCallMonitoring/archive/master.zip && \
+curl -L -o callmonitoring.zip https://github.com/hemaseh/IssabelCallMonitoring/archive/master.zip && \
 unzip -o callmonitoring.zip && \
 cd IssabelCallMonitoring-main && \
 chmod 755 install2.sh && \
 ./install2.sh
 ```
-
-## Give a Star! ⭐ یک ستاره با ما بدهید
-If you like this project or plan to use it in the future, please give it a star. Thanks 🙏
